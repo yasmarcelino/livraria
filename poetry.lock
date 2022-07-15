@@ -51,6 +51,14 @@ django = ">=2.2"
 pytz = "*"
 
 [[package]]
+name = "package"
+version = "0.1.1"
+description = "package is a package to package your package"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "pytz"
 version = "2022.1"
 description = "World timezone definitions, modern and historical"
@@ -77,7 +85,7 @@ python-versions = ">=2"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "3d7fa9b6327d0a1281aa9466082dfe109c6d330f3714a684c001f456b93a7130"
+content-hash = "6113e5556dc5f3129e7f67d026e0000c5fa7e6bdc460b6ee6fcbe6cad8b4f225"
 
 [metadata.files]
 asgiref = [
@@ -110,6 +118,7 @@ djangorestframework = [
     {file = "djangorestframework-3.13.1-py3-none-any.whl", hash = "sha256:24c4bf58ed7e85d1fe4ba250ab2da926d263cd57d64b03e8dcef0ac683f8b1aa"},
     {file = "djangorestframework-3.13.1.tar.gz", hash = "sha256:0c33407ce23acc68eca2a6e46424b008c9c02eceb8cf18581921d0092bc1f2ee"},
 ]
+package = []
 pytz = [
     {file = "pytz-2022.1-py2.py3-none-any.whl", hash = "sha256:e68985985296d9a66a881eb3193b0906246245294a881e7c8afe623866ac6a5c"},
     {file = "pytz-2022.1.tar.gz", hash = "sha256:1e760e2fe6a8163bc0b3d9a19c4f84342afa0a2affebfaa84b01b978a02ecaa7"},
